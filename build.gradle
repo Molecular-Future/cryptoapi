@@ -1,0 +1,54 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.7
+
+buildscript {
+	dependencies { 
+		classpath "onight.osgi:zpp-gradle_1.8:3.4.0"
+	}
+}
+
+version = '3.0.0'
+
+project.group='org.mos.core'
+
+apply plugin: 'zippo'
+
+ext {
+    slf4jVersion = '1.7.7'
+    leveldbVersion = '0.7'
+    scastleVersion = '1.53.0.0'
+    springVersion = '4.2.0.RELEASE'
+    hibernateVersion = '4.3.7.Final'
+    junitVersion = '4.11'
+}
+
+dependencies {    
+   compile ("org.fc.zippo:org.fc.zippo.oapi:4.0.2")
+   compile ("org.mos:org.mos.tools:3.0.0")
+}
+
+protobuf {
+    generatedFilesBaseDir = "$projectDir/src"
+    generateProtoTasks {
+	  ofSourceSet('main')
+	}
+}
+sourceSets {
+  main {
+    proto {
+      srcDir '$projectDir/src/main/proto'
+    }
+    java {
+      srcDir '$projectDir/src/main/java'
+    }
+  }
+}
+
+
+jar {
+	manifest{
+		attributes( 'Import-Ignore':'')
+	}
+}
