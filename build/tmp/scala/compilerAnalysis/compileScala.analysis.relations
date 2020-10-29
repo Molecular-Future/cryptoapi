@@ -1,0 +1,21 @@
+products:
+   src/main/scala/org/mos/core/crypto/BCNodeHelper.scala -> build/classes/scala/main/org/mos/core/crypto/BCNodeHelper$.class
+   src/main/scala/org/mos/core/crypto/BCNodeHelper.scala -> build/classes/scala/main/org/mos/core/crypto/BCNodeHelper.class
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> build/classes/scala/main/org/mos/core/crypto/BitMap.class
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> build/classes/scala/main/org/mos/core/crypto/test1$.class
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> build/classes/scala/main/org/mos/core/crypto/test1.class
+binary dependencies:
+   src/main/scala/org/mos/core/crypto/BCNodeHelper.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/org/mos/core/crypto/BCNodeHelper.scala -> /Users/camulos/.gradle/caches/modules-2/files-2.1/org.fc.zippo/org.fc.zippo.oapi/4.0.2/4ddb345c51ab94e992dad66cf7732364021a0730/org.fc.zippo.oapi-4.0.2.jar
+   src/main/scala/org/mos/core/crypto/BCNodeHelper.scala -> /Users/camulos/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> /Users/camulos/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> /Users/camulos/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/org/mos/core/crypto/BCNodeHelper.scala -> org.mos.core.crypto.BCNodeHelper
+   src/main/scala/org/mos/core/crypto/BCNodeHelper.scala -> org.mos.core.crypto.BCNodeHelper$
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> org.mos.core.crypto.BitMap
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> org.mos.core.crypto.test1
+   src/main/scala/org/mos/core/crypto/BitMap.scala -> org.mos.core.crypto.test1$
